@@ -305,6 +305,56 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* notes section styling */
+.notes, .teams{
+    color:#fff;
+    background: #111;
+}
+.notes .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.notes .title::after,
+.teams .title::after{
+    background: #fe8c00;
+    content: "PHP Developer";
+}
+.notes .serv-content .card{
+    width: calc(33% - 20px);
+    background: #fe8c00;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    margin-bottom: 21px;
+    margin-left: 21px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.notes .serv-content .card:hover{
+    background: #f83600;
+}
+.notes .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.notes .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.notes .serv-content .card i{
+    font-size: 50px;
+    color: #f83600;
+    transition: color 0.3s ease;
+}
+.notes .serv-content .card:hover i{
+    color: #fff;
+}
+.notes .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
 /* skills section styling */
 
 .skills .title::after{
