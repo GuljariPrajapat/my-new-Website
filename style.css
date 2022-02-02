@@ -269,7 +269,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #fe8c00;
+    background: #111111;
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -316,7 +316,7 @@ section .title::after{
 }
 .notes .title::after,
 .teams .title::after{
-    background: #fe8c00;
+    background: #111111;
     content: "PHP Developer";
 }
 .notes .serv-content .card{
